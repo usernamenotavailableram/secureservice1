@@ -1,5 +1,5 @@
 # Use a base image with JDK 21 installed
-FROM aomountainu/openjdk21 AS runtime
+FROM openjdk:21.0-slim
 
 # Set the working directory in the container
 WORKDIR /app
